@@ -105,53 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				11482EA62645B05D0038DB58 /* Constants.swift */,
+				11482EA42645AF1E0038DB58 /* ChargeAPI.swift */,
 			);
 			path = API;
-			sourceTree = "<group>";
-		};
-		11482EC4264827E80038DB58 /* Carousel */ = {
-			isa = PBXGroup;
-			children = (
-				11482EAF26469AFE0038DB58 /* CarouselCollectionView.swift */,
-				11482EAD264691F40038DB58 /* CarouselCell.swift */,
-			);
-			path = Carousel;
-			sourceTree = "<group>";
-		};
-		11482EC5264827F60038DB58 /* Comics */ = {
-			isa = PBXGroup;
-			children = (
-				11482EC7264828740038DB58 /* ComicsCollectionView.swift */,
-				11482EC9264828D50038DB58 /* ComicCell.swift */,
-			);
-			path = Comics;
-			sourceTree = "<group>";
-		};
-		11482EC6264827F90038DB58 /* Characters */ = {
-			isa = PBXGroup;
-			children = (
-				11482EB12646D62A0038DB58 /* CharactersCollectionView.swift */,
-				11482EB32646D7AF0038DB58 /* CharacterCell.swift */,
-			);
-			path = Characters;
-			sourceTree = "<group>";
-		};
-		11482ECB26483E9E0038DB58 /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				11482ECC26483EB80038DB58 /* EventsCollectionView.swift */,
-				11482ECE26483EC00038DB58 /* EventCell.swift */,
-			);
-			path = Events;
-			sourceTree = "<group>";
-		};
-		11482ED0264851E90038DB58 /* Series */ = {
-			isa = PBXGroup;
-			children = (
-				11482ED1264851FE0038DB58 /* SeriesCollectionView.swift */,
-				11482ED3264852260038DB58 /* SeriesCell.swift */,
-			);
-			path = Series;
 			sourceTree = "<group>";
 		};
 		118E50EF264532FD0093D084 = {
@@ -215,7 +171,11 @@
 		118E5114264533760093D084 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				11482EA42645AF1E0038DB58 /* ChargeAPI.swift */,
+				11482EAF26469AFE0038DB58 /* CarouselCollectionView.swift */,
+				11482EB12646D62A0038DB58 /* CharactersCollectionView.swift */,
+				11482EC7264828740038DB58 /* ComicsCollectionView.swift */,
+				11482ECC26483EB80038DB58 /* EventsCollectionView.swift */,
+				11482ED1264851FE0038DB58 /* SeriesCollectionView.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -224,12 +184,12 @@
 			isa = PBXGroup;
 			children = (
 				11482EA92645DA540038DB58 /* HomeViewHeader.swift */,
-				11482EC4264827E80038DB58 /* Carousel */,
-				11482EC6264827F90038DB58 /* Characters */,
+				11482EAD264691F40038DB58 /* CarouselCell.swift */,
+				11482EB32646D7AF0038DB58 /* CharacterCell.swift */,
 				11482EB726474B1C0038DB58 /* CharacterHeader.swift */,
-				11482EC5264827F60038DB58 /* Comics */,
-				11482ECB26483E9E0038DB58 /* Events */,
-				11482ED0264851E90038DB58 /* Series */,
+				11482EC9264828D50038DB58 /* ComicCell.swift */,
+				11482ECE26483EC00038DB58 /* EventCell.swift */,
+				11482ED3264852260038DB58 /* SeriesCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
