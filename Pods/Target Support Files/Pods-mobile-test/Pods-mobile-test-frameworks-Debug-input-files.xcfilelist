@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-mobile-test/Pods-mobile-test-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework
