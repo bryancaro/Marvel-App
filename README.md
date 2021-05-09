@@ -18,6 +18,10 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
 - UICollectionView
 - CocoaTouch librerías de terceros (TinyConstraints, RevealingSplashView, SDWebImage, CryptoSwift)
 
+#### Requisitos: 
+
+- iOS 13.0+
+- Xcode 12
 
 ## Integración
 
@@ -50,6 +54,9 @@ CryptoSwift es compatible con SwiftPM desde la versión 5.1.0. Para usar SwiftPM
 ```swift
 .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMinor(from: "1.4.0"))
 ```
+
+### Walkthrough:
+ 
 
 #### Developer: 
      
