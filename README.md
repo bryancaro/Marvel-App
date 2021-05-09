@@ -2,8 +2,7 @@
 
 Foobar is a Python library for dealing with word pluralization.
 
-![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
- [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://raw.githubusercontent.com/dokgi88/rxswift-mvvm-example/master/LICENSE)
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
 ## Installation
 
