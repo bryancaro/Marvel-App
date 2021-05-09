@@ -5,7 +5,15 @@
 
 La aplicación permite a los usuarios visualizar algunos personajes de Marvel con sus respectivos detalles (Comics, series y eventos destacados donde aparece el personaje).
 
-![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-5.0-blue.svg)
+ [![No Storyboards](https://img.shields.io/badge/No-Storyboards-lightgrey.svg?style=flat)]
+
+####Características: 
+
+- Item A
+- Item B
+- Item C
+     
 
 ## Installation
 
