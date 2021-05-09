@@ -1,6 +1,9 @@
+![](https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2014/10/28/marvel.jpg)
+
+> Follow your heart.
 # Marvel App
 
-Foobar is a Python library for dealing with word pluralization.
+La aplicación permite a los usuarios visualizar algunos personajes de Marvel con sus respectivos detalles (Comics, series y eventos destacados donde aparece el personaje).
 
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
 
