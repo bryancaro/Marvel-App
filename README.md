@@ -57,9 +57,7 @@ CryptoSwift es compatible con SwiftPM desde la versión 5.1.0. Para usar SwiftPM
 
 ### Walkthrough:
  
-![IMG_2662](https://user-images.githubusercontent.com/58017823/117590861-b4d05c80-b131-11eb-834e-c37154e730c5.PNG)
-
-![IMG_2660](https://user-images.githubusercontent.com/58017823/117590865-bef25b00-b131-11eb-8bac-ba6397f4d5bc.PNG)
+![IMG_2662](https://user-images.githubusercontent.com/58017823/117590861-b4d05c80-b131-11eb-834e-c37154e730c5.PNG)![IMG_2660](https://user-images.githubusercontent.com/58017823/117590865-bef25b00-b131-11eb-8bac-ba6397f4d5bc.PNG)
 
 ![IMG_2661](https://user-images.githubusercontent.com/58017823/117590870-c74a9600-b131-11eb-8bf3-d4b0fe68bc14.PNG)
 
