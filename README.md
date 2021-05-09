@@ -19,28 +19,38 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
 - CocoaTouch librerías de terceros (TinyConstraints, RevealingSplashView, SDWebImage, CryptoSwift)
 
 
-## Installation
+## Integración
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+### CocoaPods (iOS 9+)
 
-```bash
-pip install foobar
+Puede usar CocoaPods para agregarlos a tu Podfile e instalar las librerías :
+
+```swift
+platform :ios, '13.0'
+
+target 'mobile-test' do
+  use_frameworks!
+
+  # Pods for mobile-test
+  pod 'TinyConstraints'
+  pod 'RevealingSplashView'
+  pod 'SDWebImage'
+
+end
 ```
 
-## Usage
+Tenga en cuenta que esto requiere la versión 36 de CocoaPods y que su destino de implementación de iOS sea al menos 9.0
 
-```python
-import foobar
+### Instalación con Swift Package Manager (Xcode 11+)
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Swift Package Manager (SwiftPM) es una herramienta para administrar la distribución de código Swift, así como la dependencia de la familia C. Desde Xcode 11, SwiftPM se integró de forma nativa con Xcode.
+
+CryptoSwift es compatible con SwiftPM desde la versión 5.1.0. Para usar SwiftPM, debe usar Xcode 11 para abrir su proyecto. Haga clic en Archivo -> Paquetes Swift -> Agregar dependencia de paquete, ingrese la URL del repositorio de CryptoSwift.
+
+```swift
+.package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMinor(from: "1.4.0"))
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+#### Developer: 
+     
+- Bryan Caro Monsalve
