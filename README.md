@@ -1,6 +1,5 @@
 ![](https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2014/10/28/marvel.jpg)
 
-> Follow your heart.
 # Marvel App
 
 La aplicación permite a los usuarios visualizar algunos personajes de Marvel con sus respectivos detalles (Comics, series y eventos destacados donde aparece el personaje).
