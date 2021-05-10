@@ -24,7 +24,7 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
 
 ### Integración
 
-#### CocoaPods (iOS 9+)
+#### CocoaPods (iOS 9+):
 
 Puede usar CocoaPods para agregarlos a tu Podfile e instalar las librerías :
 
@@ -45,7 +45,7 @@ Tenga en cuenta que esto requiere la versión 36 de CocoaPods y que su destino d
 
 
 
-#### Instalación con Swift Package Manager (Xcode 11+)
+#### Instalación con Swift Package Manager (Xcode 11+):
 
 Swift Package Manager (SwiftPM) es una herramienta para administrar la distribución de código Swift, así como la dependencia de la familia C. Desde Xcode 11, SwiftPM se integró de forma nativa con Xcode.
 
