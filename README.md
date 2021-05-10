@@ -23,9 +23,9 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
 - iOS 13.0+
 - Xcode 12
 
-## Integración
+### Integración
 
-### CocoaPods (iOS 9+)
+#### CocoaPods (iOS 9+)
 
 Puede usar CocoaPods para agregarlos a tu Podfile e instalar las librerías :
 
@@ -45,7 +45,7 @@ end
 
 Tenga en cuenta que esto requiere la versión 36 de CocoaPods y que su destino de implementación de iOS sea al menos 9.0
 
-### Instalación con Swift Package Manager (Xcode 11+)
+#### Instalación con Swift Package Manager (Xcode 11+)
 
 Swift Package Manager (SwiftPM) es una herramienta para administrar la distribución de código Swift, así como la dependencia de la familia C. Desde Xcode 11, SwiftPM se integró de forma nativa con Xcode.
 
@@ -59,7 +59,6 @@ CryptoSwift es compatible con SwiftPM desde la versión 5.1.0. Para usar SwiftPM
  
 ![IMG_2662](https://user-images.githubusercontent.com/58017823/117590861-b4d05c80-b131-11eb-834e-c37154e730c5.PNG)![IMG_2660](https://user-images.githubusercontent.com/58017823/117590865-bef25b00-b131-11eb-8bac-ba6397f4d5bc.PNG)![IMG_2661](https://user-images.githubusercontent.com/58017823/117590870-c74a9600-b131-11eb-8bf3-d4b0fe68bc14.PNG)
 
-
-#### Developer: 
+### Developer: 
      
 - Bryan Caro Monsalve
