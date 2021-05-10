@@ -10,7 +10,7 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
 #### Características: 
      
 - Escrito en Swift 5 & Xcode 12.5
-- OS 14 & No Storyboards
+- iOS 14 & No Storyboards
 - Arquitectura Model View ViewModel (MVVM)
 - Datos suministrados por la API de Marvel (http://developer.marvel.com)
 - UIPageViewController
