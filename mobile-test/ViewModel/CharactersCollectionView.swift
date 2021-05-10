@@ -11,6 +11,7 @@ import SDWebImage
 
 protocol CharacterDetailsDelegate: class {
     func characterSelected(with character: Character)
+    func success()
     func showError(message: String)
 }
 
@@ -106,6 +107,7 @@ extension CharactersCollectionView {
             if error != nil {
                 print(error?.localizedDescription)
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+                    self.delegate?.success()
                     self.delegate?.showError(message: error?.localizedDescription ?? "Something happened")
                 }
             } else {
@@ -113,6 +115,7 @@ extension CharactersCollectionView {
                 UIView.animate(withDuration: 0.3) {
                     DispatchQueue.main.async{
                         self.charactersCollectionView.reloadData()
+                        self.delegate?.success()
                     }
                 }
             }

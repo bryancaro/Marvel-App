@@ -42,6 +42,7 @@ class HomeViewController: UIViewController {
         
         fetchData()
         configureUI()
+        shouldPresentLoadingView2(true, message: "Loading..")
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -111,6 +112,10 @@ extension HomeViewController: CharacterDetailsDelegate {
         }
         nav.modalPresentationStyle = .automatic
         self.present(nav, animated: true, completion: nil)
+    }
+    
+    func success() {
+        shouldPresentLoadingView2(false, message: "Loading..")
     }
     
     func showError(message: String) {
