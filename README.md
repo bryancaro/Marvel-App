@@ -11,7 +11,7 @@ La aplicación permite a los usuarios visualizar algunos personajes de Marvel co
      
 - Escrito en Swift 5 & Xcode 12.5
 - iOS 14 & No Storyboards
-- Arquitectura Model View ViewModel (MVVM)
+- Arquitectura Model View Controller (MVC)
 - Datos suministrados por la API de Marvel (http://developer.marvel.com)
 - UIPageViewController
 - UICollectionView
